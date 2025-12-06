@@ -6,7 +6,11 @@ const Index = () => {
       <div className="w-full max-w-4xl space-y-8">
         <div className="text-center space-y-4 animate-float">
           <div className="inline-block">
-            <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary via-secondary to-accent animate-pulse-glow" />
+            <img 
+              src="https://cdn.poehali.dev/files/logo (1).jpg" 
+              alt="Колывань 54" 
+              className="w-32 h-32 mx-auto mb-4 rounded-full animate-pulse-glow object-cover"
+            />
           </div>
           <h1 className="text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
             Колывань 54
