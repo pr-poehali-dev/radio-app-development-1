@@ -9,7 +9,7 @@ const Index = () => {
             <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary via-secondary to-accent animate-pulse-glow" />
           </div>
           <h1 className="text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Radio Station
+            Колывань 54
           </h1>
           <p className="text-xl text-muted-foreground">
             Твоя любимая музыка 24/7
@@ -18,7 +18,7 @@ const Index = () => {
 
         <RadioPlayer 
           streamUrl="https://stream.example.com/radio"
-          stationName="FM 101.5"
+          stationName="Колывань 54"
           currentShow="Вечерний эфир"
         />
 
