@@ -17,7 +17,7 @@ const Index = () => {
         </div>
 
         <RadioPlayer 
-          streamUrl="https://stream.example.com/radio"
+          streamUrl="https://region-ru4.tunio.ai/klvn54.aac"
           stationName="Колывань 54"
           currentShow="Вечерний эфир"
         />
