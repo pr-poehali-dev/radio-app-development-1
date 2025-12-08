@@ -12,7 +12,7 @@ const Index = () => {
               className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-2 sm:mb-4 rounded-full animate-pulse-glow object-cover"
             />
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-l from-primary via-secondary to-accent bg-clip-text text-transparent brightness-75">
             Колывань 54
           </h1>
           <p className="text-base sm:text-xl text-muted-foreground">
