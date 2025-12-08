@@ -50,7 +50,7 @@ const RadioPlayer = ({
       
       <div className="space-y-4 sm:space-y-6">
         <div className="text-center space-y-1 sm:space-y-2">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-l from-primary via-secondary to-accent bg-clip-text text-transparent brightness-75">
             {stationName}
           </h1>
           <p className="text-muted-foreground text-sm sm:text-base md:text-lg">{currentShow}</p>
@@ -61,7 +61,7 @@ const RadioPlayer = ({
             {[...Array(5)].map((_, i) => (
               <div
                 key={i}
-                className={`w-1.5 sm:w-2 h-12 sm:h-16 rounded-full bg-gradient-to-t from-primary to-secondary transition-all ${
+                className={`w-1.5 sm:w-2 h-12 sm:h-16 rounded-full bg-gradient-to-b from-primary to-secondary brightness-75 transition-all ${
                   isPlaying ? 'animate-wave' : 'opacity-30'
                 }`}
                 style={{
@@ -77,7 +77,7 @@ const RadioPlayer = ({
             variant="outline"
             size="lg"
             onClick={togglePlay}
-            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 active:scale-95 border-none shadow-lg hover:shadow-xl transition-all duration-300 touch-manipulation"
+            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-tl from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 active:scale-95 border-none shadow-lg hover:shadow-xl transition-all duration-300 touch-manipulation brightness-75"
           >
             <Icon 
               name={isPlaying ? 'Pause' : 'Play'} 
