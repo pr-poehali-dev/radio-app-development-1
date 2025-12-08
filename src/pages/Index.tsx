@@ -16,7 +16,7 @@ const Index = () => {
             Колывань 54
           </h1>
           <p className="text-base sm:text-xl text-muted-foreground">
-            Твоя любимая музыка 24/7
+            Наше местное радио
           </p>
         </div>
 
