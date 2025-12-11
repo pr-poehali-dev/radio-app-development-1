@@ -50,9 +50,6 @@ const RadioPlayer = ({
       
       <div className="space-y-4 sm:space-y-6">
         <div className="text-center space-y-1 sm:space-y-2">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-l from-primary via-secondary to-accent bg-clip-text text-transparent brightness-75">
-            {stationName}
-          </h1>
           <p className="text-muted-foreground text-sm sm:text-base md:text-lg">{currentShow}</p>
         </div>
 
